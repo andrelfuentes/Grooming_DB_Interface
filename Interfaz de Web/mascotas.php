@@ -56,10 +56,10 @@ CCOM4027-001 -->
 <?php
 
 // definir la informacion necesaria para entrar a la base de datos
-$host = 'localhost';
-$database = 'grooming';
-$user = 'andrel.fuentes';
-$password = '801199857';
+$host = '';
+$database = '';
+$user = '';
+$password = '';
 
 // tratar de hacer una conexion al servidor de la base de datos
 try
