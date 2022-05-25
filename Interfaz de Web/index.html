@@ -1,0 +1,75 @@
+
+<!-- Andrel Fuentes Torres
+26 de mayo de 2022
+Prof. Corrada
+CCOM4027-001 -->
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- hacer clases o divisiones para el estilo de la pagina -->
+      <style>
+
+          .button {
+            height: 20px;
+            width: 150px;
+            background-color: #1c87c9;
+            box-shadow: 0 5px 0 #105cad;
+            color: white;
+            padding: 1em 1.5em;
+            position: relative;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 24px;
+            text-align: center;
+            vertical-align: middle;
+          }
+
+          .container {
+            height: 320px;
+            width: 300px;
+            position: relative;
+            margin: auto;
+            border: 1.5px solid DodgerBlue;
+          }
+
+          .center {
+            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+          }
+
+          /* alinear texto al centro de la pagina */
+          h1 {text-align: center;}
+
+      </style>
+   </head>
+   <!-- cambiar el background de color -->
+   <body style="background-color:powderblue;">
+     <br></br>
+     <header>
+         <!-- dar una bienvedida a la pagina -->
+         <h1>&#161;Bienvenido a la interface de la base de datos de Maykol's Grooming!</h1>
+     </header>
+     <br></br>
+     <br></br>
+         <!-- utilizar las clases para centralizar los botones en la pagina -->
+         <div class="container">
+         <div class="center">
+           <!-- referenciar y llevar a mascotas.php -->
+           <a href="mascotas.php" class="button">Ver Mascotas</a>
+   <br></br>
+   <br>
+           <!-- referenciar y llevar a mascotas.php -->
+           <a href="clientes.php" class="button">Ver Clientes</a>
+   <br> </br>
+   <br>
+           <!-- referenciar y llevar a mascotas.php -->
+           <a href="empleados.php" class="button">Ver Empleados</a>
+         </div>
+         </div>
+   </body>
+</html>
